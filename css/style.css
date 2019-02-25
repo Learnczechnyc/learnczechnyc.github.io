@@ -14,11 +14,11 @@
 
 #click-1, #click-2, #click-3, #click-4 {
   cursor:pointer;
-  transition: margin-top 0.3s, box-shadow 0.3s;
+  transition: padding-top 0.3s, box-shadow 0.3s;
 }
 
 #click-1:hover, #click-2:hover, #click-3:hover, #click-4:hover {
-  margin-top:3px;
+  padding-top:20px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
