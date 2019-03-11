@@ -29,6 +29,7 @@
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
+			$('#hero_image').css("width", $(window).width());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
 			});

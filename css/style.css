@@ -12,6 +12,9 @@
 *
 * ======================================================= */
 
+#hero_image {
+  padding-right:1em!important;
+}
 
 #social {
   width:100%;
