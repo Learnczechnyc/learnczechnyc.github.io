@@ -12,10 +12,6 @@
 *
 * ======================================================= */
 
-#desc_container {
-  padding:2em 2em 2em 0em!important;
-  margin:auto;
-}
 #flex-across {
   display:flex;
   flex-direction:row;
@@ -39,6 +35,10 @@
     justify-content:center;
     max-width:80%;
     height:auto;
+    margin:auto;
+  }
+  #desc_container {
+    padding:2em 2em 2em 0em!important;
     margin:auto;
   }
 #mobile_headshot {
