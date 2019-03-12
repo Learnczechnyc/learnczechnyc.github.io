@@ -12,11 +12,15 @@
 *
 * ======================================================= */
 
+#desc_container {
+  padding:2em 2em 2em 0em!important;
+  margin:auto;
+}
 #flex-across {
   display:flex;
   flex-direction:row;
   justify-content:start;
-  width:auto;
+  max-width:auto;
   height:100px;
 }
 #sticker1, #sticker2, #sticker3 {
@@ -33,6 +37,9 @@
     display:flex;
     flex-direction:row;
     justify-content:center;
+    max-width:80%;
+    height:auto;
+    margin:auto;
   }
 #mobile_headshot {
   display:block;
@@ -41,14 +48,10 @@
   border-radius:100%;
   margin:20px auto;
 }
-#flex-across {
-  max-width:300px;
-  height:auto;
-  margin:auto;
-}
+
 #sticker1, #sticker2, #sticker3 {
-  height:60px;
-  width:auto;
+  max-height:60px;
+  max-width:100%;
 }
 
 
@@ -322,7 +325,8 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 400px;
+        height:100vh;
+        width:100vw!important;
         position: relative; }
     #kl-hero .flexslider .flex-control-nav {
       bottom: 20px;
@@ -354,6 +358,7 @@ figure {
       display: table;
       opacity: 1;
       min-height: 500px;
+      max-width:900px!important;
       z-index: 9; }
       #kl-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
@@ -364,7 +369,6 @@ figure {
         @media screen and (max-width: 768px) {
           #kl-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center;
-            padding: 2em 0em;
              } }
         #kl-hero .flexslider .slider-text > .slider-text-inner h1, #kl-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
