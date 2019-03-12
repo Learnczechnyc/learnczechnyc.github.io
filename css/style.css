@@ -12,12 +12,28 @@
 *
 * ======================================================= */
 
+#flex-across {
+  display:flex;
+  flex-direction:row;
+  justify-content:start;
+  width:auto;
+  height:100px;
+}
+#sticker1, #sticker2, #sticker3 {
+  height:100%;
+  width:auto;
+}
 
 #mobile_headshot {
   display:none;
 }
 
 @media screen and (max-width:768px) {
+  #flex-across {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
 #mobile_headshot {
   display:block;
   width: 200px;
@@ -25,13 +41,15 @@
   border-radius:100%;
   margin:20px auto;
 }
-.sticker-img {
-  width:60px!important;
-  height:60px!important;
+#flex-across {
+  height:70px;
 }
-.sticker-img2 {
-  width:180px!important;
-  height:60px!important;
+#sticker1, #sticker2, #sticker3 {
+  height:70px;
+  width:auto;
+}
+
+
 }
 
 }
@@ -62,34 +80,6 @@
   opacity:0.5;
 }
 
-.sticker-img3 {
-    width:300px;
-    height:170px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    display:inline-block;
-
-}
-
-.sticker-img2 {
-    width:240px;
-    height:80px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    display:inline-block;
-
-}
-.sticker-img {
-    width:80px;
-    height:80px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    display:inline-block;
-
-}
 
 
 /* Old */
