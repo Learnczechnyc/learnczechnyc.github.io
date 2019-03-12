@@ -42,10 +42,12 @@
   margin:20px auto;
 }
 #flex-across {
-  height:70px;
+  max-width:300px;
+  height:auto;
+  margin:auto;
 }
 #sticker1, #sticker2, #sticker3 {
-  height:70px;
+  height:60px;
   width:auto;
 }
 
