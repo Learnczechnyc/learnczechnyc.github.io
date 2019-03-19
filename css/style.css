@@ -12,6 +12,9 @@
 *
 * ======================================================= */
 
+#sticker0 {
+  max-width:500px;
+}
 #flex-across {
   display:flex;
   justify-content:flex-start;
