@@ -324,6 +324,6 @@ $("#click-3").click(function() {
 
 $("#click-4").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#singers").offset().top
+        scrollTop: $("#translate").offset().top
     }, 1000);
 });
